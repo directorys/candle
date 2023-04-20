@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Romile';
+    src: url('Romile-Regular.eot');
+    src: local('Romile Regular'), local('Romile-Regular'),
+        url('Romile-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Romile-Regular.woff2') format('woff2'),
+        url('Romile-Regular.woff') format('woff'),
+        url('Romile-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
