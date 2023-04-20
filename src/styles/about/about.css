@@ -1,0 +1,17 @@
+.about {
+  padding: 0 45px;
+  max-height: 950px;
+  height: 66vw;
+  box-sizing: border-box;
+  color: var(--color-white);
+  background-image: url(../../images/about/about.png);
+  background-size: cover;
+  background-position: 10% top;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 900px) {
+  .about {
+    height: 592px;
+  }
+}
