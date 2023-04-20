@@ -1,0 +1,17 @@
+.work__punkt {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .work__punkt {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .work__punkt {
+    font-size: 13px;
+  }
+}

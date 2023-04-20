@@ -1,0 +1,14 @@
+.ware__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .ware__items {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

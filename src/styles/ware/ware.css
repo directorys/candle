@@ -1,0 +1,9 @@
+.ware {
+  padding: 7.5% 32px 5.5%;
+}
+
+@media screen and (max-width: 1024px) {
+  .ware {
+    padding: 71px 32px 51px;
+  }
+}

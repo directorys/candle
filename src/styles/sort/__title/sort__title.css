@@ -1,0 +1,33 @@
+.sort__title {
+  margin: 0 auto;
+  max-width: 603px;
+  width: 42vw;
+  min-width: 271px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 39px;
+}
+
+@media screen and (max-width: 1240px) {
+  .sort__title {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .sort__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sort__title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .sort__title {
+    font-size: 20px;
+  }
+}

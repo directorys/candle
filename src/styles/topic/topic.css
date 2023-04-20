@@ -1,0 +1,16 @@
+.topic {
+  padding: 78px 72px;
+  background: var(--color-news);
+}
+
+@media screen and (max-width: 1024px) {
+  .topic {
+    padding: 74px 72px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .topic {
+    padding: 69px 72px;
+  }
+}

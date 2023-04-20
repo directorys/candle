@@ -1,0 +1,12 @@
+.work {
+  padding: 0 28px 0;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 778px;
+  height: 66vw;
+  max-height: 950px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../images/work/work.jpg);
+}

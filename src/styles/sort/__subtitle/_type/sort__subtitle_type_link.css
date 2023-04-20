@@ -1,0 +1,19 @@
+.sort__subtitle_type_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-white);
+  max-width: 345px;
+  width: 24vw;
+  min-width: 271px;
+  max-height: 86px;
+  height: 6vw;
+  min-height: 72px;
+  transition: all .3s ease;
+}
+
+.sort__subtitle_type_link:hover {
+  color: var(--color-black);
+  background: var(--color-white);
+  border: 2px solid var(--color-transparent);
+}

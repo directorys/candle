@@ -1,0 +1,23 @@
+.work__title {
+  font-weight: 600;
+  font-size: 39px;
+}
+
+@media screen and (max-width: 1024px) {
+  .work__title {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .work__title {
+    font-size: 29px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .work__title {
+    font-size: 24px;
+  }
+}

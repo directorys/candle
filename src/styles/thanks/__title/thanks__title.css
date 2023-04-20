@@ -1,0 +1,25 @@
+.thanks__title {
+  margin: 0 0 8%;
+  font-weight: 400;
+  font-size: 39px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1240px) {
+  .thanks__title {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .thanks__title {
+    margin: 0 0 75px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .thanks__title {
+    font-size: 25px;
+  }
+}

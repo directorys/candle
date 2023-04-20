@@ -1,0 +1,7 @@
+.ware__content {
+  margin: 0 auto;
+  max-width: 1090px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}

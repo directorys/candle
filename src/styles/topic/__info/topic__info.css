@@ -1,0 +1,14 @@
+.topic__info {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+@media screen and (max-width: 768px) {
+  .topic__info {
+    margin: 0 auto;
+    max-width: 232px;
+    flex-direction: column;
+    gap: 12px;
+  }
+}

@@ -1,0 +1,6 @@
+.topic__line {
+  height: 1px;
+  max-width: 100%;
+  width: 100%;
+  background: var(--color-black);
+}

@@ -1,0 +1,13 @@
+.work__punkts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(284px, 543px));
+  justify-content: space-between;
+  gap: 38px 62px;
+}
+
+@media screen and (max-width: 768px) {
+  .work__punkts {
+    justify-content: center;
+    grid-template-columns: repeat(1, minmax(284px, 543px));
+  }
+}
