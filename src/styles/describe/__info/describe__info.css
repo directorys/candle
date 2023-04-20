@@ -1,0 +1,7 @@
+.describe__info {
+  max-width: 625px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+}

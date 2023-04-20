@@ -1,0 +1,31 @@
+.contact__form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 32px 0 0;
+  gap: 102px;
+}
+
+@media screen and (max-width: 1240px) {
+  .contact__form {
+    gap: 92px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .contact__form {
+    gap: 82px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact__form {
+    padding: 28px 0 0;
+    gap: 72px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .contact__form {
+    gap: 62px;
+  }
+}

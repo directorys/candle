@@ -1,0 +1,9 @@
+.contact {
+  padding: 6.8% 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 50px 30px;
+  }
+}

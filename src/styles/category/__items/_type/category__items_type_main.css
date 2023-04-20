@@ -1,0 +1,21 @@
+.category__items_type_main {
+  padding: 55px 0;
+}
+
+@media screen and (max-width: 1240px) {
+  .category__items_type_main {
+    padding: 50px 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .category__items_type_main {
+    padding: 45px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .category__items_type_main {
+    padding: 40px 0;
+  }
+}

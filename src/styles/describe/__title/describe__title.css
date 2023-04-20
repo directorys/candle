@@ -1,0 +1,25 @@
+.describe__title {
+  max-width: 540px;
+  font-weight: 500;
+  font-size: 31px;
+}
+
+@media screen and (max-width: 1240px) {
+  .describe__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .describe__title {
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .describe__title {
+    font-size: 20px;
+  }
+}

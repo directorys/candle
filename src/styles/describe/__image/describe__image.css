@@ -1,0 +1,16 @@
+.describe__image {
+  width: 278px;
+}
+
+@media screen and (max-width: 1240px) {
+  .describe__image {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .describe__image {
+    width: 225px;
+    order: 2;
+  }
+}

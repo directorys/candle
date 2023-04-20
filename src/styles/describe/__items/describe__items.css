@@ -1,0 +1,13 @@
+.describe__items {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(138px, 1fr));
+  justify-content: space-between;
+  gap: 0 90px;
+}
+
+@media screen and (max-width: 1024px) {
+  .describe__items {
+    justify-content: space-around;
+    gap: 40px;
+  }
+}

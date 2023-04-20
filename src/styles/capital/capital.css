@@ -1,0 +1,28 @@
+.capital {
+  position: relative;
+  padding: 0 27px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-height: 796px;
+  height: 52vw;
+  min-height: 552px;
+  background-image: url(../../images/capital/capital.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.capital::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: var(--color-black);
+  opacity: .6;
+  filter: blur(2px);
+}

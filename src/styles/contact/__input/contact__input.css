@@ -1,0 +1,18 @@
+.contact__input {
+  width: 100%;
+  padding: 0 0 15px;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--color-black-mega);
+  border-bottom: 1px solid var(--color-black-half);
+}
+
+@media screen and (max-width: 768px) {
+  .contact__input {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 75%;
+    min-width: 248px;
+  }
+}

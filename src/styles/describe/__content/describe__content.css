@@ -1,0 +1,22 @@
+.describe__content {
+  margin: 0 auto;
+  padding: 8% 0;
+  max-width: 1110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+@media screen and (max-width: 1024px) {
+  .describe__content {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .describe__content {
+    padding: 45px 0;
+  }
+}

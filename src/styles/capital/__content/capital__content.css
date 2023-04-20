@@ -1,0 +1,8 @@
+.capital__content {
+  max-width: 654px;
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  z-index: 1;
+}

@@ -1,0 +1,10 @@
+.create {
+  padding: 0 38px 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .create {
+    padding: 40px 38px 0;
+    order: -1;
+  }
+}

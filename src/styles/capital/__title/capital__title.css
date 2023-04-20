@@ -1,0 +1,29 @@
+.capital__title {
+  font-family: var(--font-romile);
+  font-weight: 400;
+  font-size: 128px;
+}
+
+@media screen and (max-width: 1240px) {
+  .capital__title {
+    font-size: 112px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .capital__title {
+    font-size: 96px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .capital__title {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .capital__title {
+    font-size: 64px;
+  }
+}

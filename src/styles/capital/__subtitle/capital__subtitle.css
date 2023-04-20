@@ -1,0 +1,23 @@
+.capital__subtitle {
+  margin: 21px 0 13px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .capital__subtitle {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .capital__subtitle {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .capital__subtitle {
+    font-size: 16px;
+  }
+}

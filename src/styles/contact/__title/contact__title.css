@@ -1,0 +1,23 @@
+.contact__title {
+  max-width: 756px;
+  font-weight: 500;
+  font-size: 39px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact__title {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact__title {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .contact__title {
+    font-size: 25px;
+  }
+}
