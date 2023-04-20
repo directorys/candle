@@ -1,0 +1,22 @@
+.goods__paragraph {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .goods__paragraph {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .goods__paragraph {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .goods__paragraph {
+    font-size: 13px;
+  }
+}

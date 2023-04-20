@@ -1,0 +1,10 @@
+.mailing_type_news {
+  max-width: 296px;
+  grid-area: n;
+}
+
+@media screen and (max-width: 768px) {
+  .mailing_type_news {
+    align-items: center;
+  }
+}

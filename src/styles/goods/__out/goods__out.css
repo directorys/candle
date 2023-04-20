@@ -1,0 +1,13 @@
+.goods__out {
+  font-family: var(--font-montserrat);
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: line-through;
+  color: var(--color-out);
+}
+
+@media screen and (max-width: 512px) {
+  .goods__out {
+    font-size: 20px;
+  }
+}

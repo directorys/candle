@@ -1,0 +1,10 @@
+.info__image {
+  width: 255px;
+}
+
+@media screen and (max-width: 1024px) {
+  .info__image {
+    transform: translateY(25%);
+    order: 1;
+  }
+}

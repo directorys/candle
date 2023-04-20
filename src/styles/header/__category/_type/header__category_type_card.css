@@ -1,0 +1,9 @@
+.header__category_type_card {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .header__category_type_card {
+    font-size: 13px;
+  }
+}

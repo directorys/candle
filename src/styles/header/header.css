@@ -1,0 +1,6 @@
+.header {
+  position: relative;
+  padding: 0 38px;
+  background: var(--color-light);
+  color: var(--color-black);
+}

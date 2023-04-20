@@ -1,0 +1,5 @@
+.mailing__button {
+  cursor: pointer;
+  display: block;
+  max-width: 24px;
+}

@@ -1,0 +1,17 @@
+.goods__heads {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .goods__heads {
+    gap: 35px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .goods__heads {
+    gap: 45px;
+  }
+}

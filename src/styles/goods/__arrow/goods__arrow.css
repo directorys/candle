@@ -1,0 +1,10 @@
+.goods__arrow {
+  cursor: pointer;
+  width: 8px;
+}
+
+@media screen and (max-width: 512px) {
+  .goods__arrow {
+    width: 5px;
+  }
+}

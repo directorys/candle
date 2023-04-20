@@ -1,0 +1,21 @@
+.goods__basket {
+  width: 94px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  background: var(--color-white);
+  transition: all .3s ease;
+}
+
+.goods__basket:hover {
+  filter: invert(100%);
+}
+
+@media screen and (max-width: 768px) {
+  .goods__basket {
+    height: 44px;
+  }
+}

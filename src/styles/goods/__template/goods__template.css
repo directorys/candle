@@ -1,0 +1,18 @@
+.goods__template {
+  grid-area: temp;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .goods__template {
+    gap: 28px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .goods__template {
+    gap: 16px;
+  }
+}

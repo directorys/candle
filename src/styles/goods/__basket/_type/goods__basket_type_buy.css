@@ -1,0 +1,18 @@
+.goods__basket_type_buy {
+  width: 214px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .goods__basket_type_buy {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .goods__basket_type_buy {
+    font-size: 13px;
+    width: 157px;
+  }
+}

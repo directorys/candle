@@ -1,0 +1,19 @@
+.goods__images {
+  grid-area: img;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+@media screen and (max-width: 1240px) {
+  .goods__images {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .goods__images {
+    gap: 17px;
+  }
+}
+

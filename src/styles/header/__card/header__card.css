@@ -1,0 +1,18 @@
+.header__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__card {
+    gap: 19px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__card {
+    gap: 13px;
+  }
+}

@@ -1,0 +1,11 @@
+.goods__calc {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+@media screen and (max-width: 768px) {
+  .goods__calc {
+    gap: 35px;
+  }
+}

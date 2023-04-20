@@ -1,0 +1,5 @@
+.header__categories {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}

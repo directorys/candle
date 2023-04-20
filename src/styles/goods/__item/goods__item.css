@@ -1,0 +1,23 @@
+.goods__item {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+  .goods__item {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .goods__item {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .goods__item {
+    gap: 10px;
+  }
+}

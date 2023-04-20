@@ -1,0 +1,31 @@
+.goods__items {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  padding: 4.5% 0;
+}
+
+@media screen and (max-width: 1240px) {
+  .goods__items {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .goods__items {
+    gap: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .goods__items {
+    padding-top: 30px;
+  }
+}
+
+
+@media screen and (max-width: 512px) {
+  .goods__items {
+    gap: 30px;
+  }
+}

@@ -1,0 +1,16 @@
+.goods__head {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .goods__head {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .goods__head {
+    font-size: 16px;
+  }
+}

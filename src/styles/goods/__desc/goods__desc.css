@@ -1,0 +1,17 @@
+.goods__desc {
+  max-width: 996px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .goods__desc {
+    font-size: 14.5px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .goods__desc {
+    font-size: 13px;
+  }
+}

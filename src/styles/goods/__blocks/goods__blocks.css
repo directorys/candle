@@ -1,0 +1,26 @@
+.goods__blocks {
+  display: grid;
+  align-items: center;
+  grid-template-areas:
+    'img head'
+    'img temp'
+  ;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .goods__blocks {
+    grid-template-areas:
+    'head'
+    'img'
+    'temp'
+  ;
+  gap: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .goods__blocks {
+    gap: 20px;
+  }
+}

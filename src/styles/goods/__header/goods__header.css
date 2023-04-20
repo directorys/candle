@@ -1,0 +1,21 @@
+.goods__header {
+  margin: 0 auto;
+  max-width: 1110px;
+  padding: 4.5% 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7.5%;
+}
+
+@media screen and (max-width: 512px) {
+  .goods__header {
+    padding: 15px 53px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .goods__header {
+    gap: 26px;
+  }
+}

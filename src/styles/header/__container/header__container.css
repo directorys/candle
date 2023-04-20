@@ -1,0 +1,20 @@
+.header__container {
+  margin: 0 auto;
+  position: relative;
+  padding: 4.8% 0;
+  max-width: 1040px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__container {
+    padding: 2.1% 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__container {
+    padding: 14px 0;
+  }
+}

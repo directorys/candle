@@ -1,0 +1,9 @@
+.goods__avatar {
+  width: 25px;
+}
+
+@media screen and (max-width: 512px) {
+  .goods__avatar {
+    width: 19px;
+  }
+}

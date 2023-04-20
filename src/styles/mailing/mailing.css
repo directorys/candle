@@ -1,0 +1,11 @@
+.mailing {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .mailing {
+    max-width: 100% !important;
+  }
+}

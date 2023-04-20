@@ -1,0 +1,10 @@
+.header__menu {
+  width: 31px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu {
+    width: 21px;
+  }
+}

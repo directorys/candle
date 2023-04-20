@@ -1,0 +1,41 @@
+.goods__title {
+  grid-area: head;
+  max-width: 453px;
+  font-weight: 600;
+  font-size: 39px;
+}
+
+@media screen and (max-width: 1240px) {
+  .goods__title {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .goods__title {
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .goods__title {
+    font-size: 25px;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .goods__title {
+    font-size: 20px;
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .goods__title {
+    font-size: 16px;
+  }
+}

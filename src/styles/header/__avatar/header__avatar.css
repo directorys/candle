@@ -1,0 +1,22 @@
+.header__avatar {
+  width: 244px;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 1240px) {
+  .header__avatar {
+    width: 202px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__avatar {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .header__avatar {
+    width: 116px;
+  }
+}

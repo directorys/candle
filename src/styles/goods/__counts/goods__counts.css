@@ -1,0 +1,21 @@
+.goods__counts {
+  width: 155px;
+  padding: 8.5px 27px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid var(--color-black);
+}
+
+@media screen and (max-width: 1024px) {
+  .goods__counts {
+    width: 135px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .goods__counts {
+    width: 118px;
+  }
+}

@@ -1,0 +1,19 @@
+.header__sites {
+  margin: 0 0 0 calc(9% - 3px);
+  display: flex;
+  gap: 78px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__sites {
+    margin: 0;
+    order: 2;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__sites {
+    gap: 35px;
+  }
+}

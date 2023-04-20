@@ -1,0 +1,10 @@
+.header__cards {
+  display: flex;
+  gap: 132px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__cards {
+    gap: 63px;
+  }
+}
