@@ -1,0 +1,11 @@
+.elect__check_type_button {
+  width: 135px;
+  gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .elect__check_type_button {
+    width: 117px;
+    gap: 24px;
+  }
+}

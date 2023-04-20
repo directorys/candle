@@ -1,0 +1,8 @@
+.footer__prop {
+  padding: 0 0 10px;
+  border-bottom: 1px solid var(--color-black-half);
+  font-family: var(--font-montserrat);
+  font-weight: 300;
+  font-size: 18px;
+  opacity: .5;
+}

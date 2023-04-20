@@ -1,0 +1,12 @@
+.footer__info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__info {
+    gap: 32px;
+  }
+}

@@ -1,0 +1,35 @@
+.forms__button {
+  margin: 0 auto;
+  background: var(--color-white);
+  height: 88px;
+  width: 275px;
+  border: 2px solid var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.forms__button:hover {
+  filter: invert(100%);
+}
+
+@media screen and (max-width: 1024px) {
+  .forms__button {
+    height: 78px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .forms__button {
+    height: 68px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .forms__button {
+    width: 300px;
+    height: 58px;
+  }
+}

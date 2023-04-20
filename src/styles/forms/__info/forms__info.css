@@ -1,0 +1,8 @@
+.forms__info {
+  width: 193px;
+}
+
+.forms__info:nth-child(1) {
+  max-width: 100%;
+  width: 100%;
+}

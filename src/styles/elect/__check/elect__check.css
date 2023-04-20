@@ -1,0 +1,15 @@
+.elect__check {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .elect__check {
+    height: 32px;
+  }
+}

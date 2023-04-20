@@ -1,0 +1,27 @@
+.elect__cards {
+  margin: 0 auto;
+  max-width: 1034px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 65px;
+}
+
+@media screen and (max-width: 1024px) {
+  .elect__cards {
+    gap: 45px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .elect__cards {
+    justify-content: center;
+    gap: 35px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .elect__cards {
+    gap: 25px;
+  }
+}

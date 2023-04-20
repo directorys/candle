@@ -1,0 +1,13 @@
+.elect__ckecks {
+  grid-area: button;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .elect__ckecks {
+    flex-direction: row;
+    gap: 21px;
+  }
+}

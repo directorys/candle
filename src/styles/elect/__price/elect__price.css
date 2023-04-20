@@ -1,0 +1,24 @@
+.elect__price {
+  font-family: var(--font-montserrat);
+  font-weight: 400;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 1024px) {
+  .elect__price {
+    font-size: 24px;
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .elect__price {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .elect__price {
+    font-size: 18px;
+  }
+}

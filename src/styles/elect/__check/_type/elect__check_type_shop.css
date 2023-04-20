@@ -1,0 +1,9 @@
+.elect__check_type_shop {
+  width: 71px;
+}
+
+@media screen and (max-width: 768px) {
+  .elect__check_type_shop {
+    width: 117px;
+  }
+}

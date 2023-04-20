@@ -1,0 +1,5 @@
+.forms__punkts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}

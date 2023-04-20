@@ -1,0 +1,18 @@
+.elect__title {
+  max-width: 246px;
+  grid-area: title;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .elect__title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .elect__title {
+    font-size: 13px;
+  }
+}

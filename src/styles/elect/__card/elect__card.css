@@ -1,0 +1,35 @@
+.elect__card {
+  display: grid;
+  grid-template-areas: 
+    'img title .'
+    'img subtitle button'
+    'img counts button'
+  ;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px 70px;
+}
+
+@media screen and (max-width: 1024px) {
+  .elect__card {
+    grid-template-areas: 
+      'img title'
+      'img button'
+      'img counts'
+    ;
+    gap: 12px 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .elect__card {
+    max-width: 212px;
+    grid-template-areas: 
+      'title'
+      'img'
+      'button'
+      'counts'
+    ;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,10 @@
+.elect__arrow {
+  width: 8px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 512px) {
+  .elect__arrow {
+    width: 6px;
+  }
+}

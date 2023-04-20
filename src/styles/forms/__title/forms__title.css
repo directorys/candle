@@ -1,0 +1,31 @@
+.forms__title {
+  margin: 0 0 70px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1240px) {
+  .forms__title {
+    margin: 0 0 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .forms__title {
+    margin: 0 0 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .forms__title {
+    margin: 0 0 40px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .forms__title {
+    margin: 0 0 30px;
+    font-size: 13px;
+  }
+}

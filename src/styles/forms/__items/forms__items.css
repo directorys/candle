@@ -1,0 +1,24 @@
+.forms__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 78px 50px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .forms__items {
+    gap: 68px 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .forms__items {
+    gap: 58px 30px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .forms__items {
+    gap: 48px 0;
+  }
+}

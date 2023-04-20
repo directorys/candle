@@ -1,0 +1,10 @@
+.elect__check_type_reverse {
+  appearance: none;
+  width: 71px;
+}
+
+.elect__check_type_reverse:checked {
+  background-image: url(../../../../images/elect/elect.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}

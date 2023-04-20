@@ -1,0 +1,12 @@
+.elect__buys {
+  grid-area: counts;
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+@media screen and (max-width: 768px) {
+  .elect__buys {
+    gap: 26px;
+  }
+}

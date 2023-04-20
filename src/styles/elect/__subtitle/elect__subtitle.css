@@ -1,0 +1,11 @@
+.elect__subtitle {
+  grid-area: subtitle;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .elect__subtitle {
+    display: none;
+  }
+}

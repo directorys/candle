@@ -1,0 +1,21 @@
+.footer__contacts {
+  display: grid;
+  justify-content: space-between;
+  gap: 40px;
+  grid-template-areas: 
+    'p s o'
+    'p s n'
+  ;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__contacts {
+    justify-content: space-evenly;
+    gap: 40px;
+    grid-template-areas: 
+      'n n'
+      'o o'
+      'p s'
+    ;
+  }
+}

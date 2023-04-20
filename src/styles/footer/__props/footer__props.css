@@ -1,0 +1,13 @@
+.footer__props {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+@media screen and (max-width: 512px) {
+  .footer__props {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+}

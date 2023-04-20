@@ -1,0 +1,16 @@
+.footer__title {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .footer__title {
+    font-size: 13px;
+  }
+}

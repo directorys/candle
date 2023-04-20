@@ -1,0 +1,11 @@
+.forms__infos {
+  padding: 60px 0 80px;
+  display: flex;
+  gap: 60px 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .forms__infos {
+    flex-wrap: wrap;
+  }
+}
