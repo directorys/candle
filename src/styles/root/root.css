@@ -1,0 +1,25 @@
+:root {
+  --font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  --font-romile: 'Romile', Arial, Helvetica, sans-serif;
+  --font-montserrat: 'Montserrat', Arial, Helvetica, sans-serif;
+  --font-style: normal;
+
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-transparent: transparent;
+  --color-auth: #303030;
+  --color-gainsboro: #9A9A9A;
+  --color-brown: #3a2d27;
+  --color-chocolate: #a48374;
+  --color-price: #545454;
+  --color-out: #A4A4A4;
+  --color-beige: #cbac8d;
+  --color-news: #EAD4C0;
+  --color-gray: #d1c7bd;
+  --color-pearl: #ebe2db;
+  --color-light: #f1ece6;
+
+  --color-black-quarter: rgba(0, 0, 0, .25);
+  --color-black-half: rgba(0, 0, 0, .5);
+  --color-black-mega: rgba(0, 0, 0, .75);
+}

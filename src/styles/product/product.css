@@ -1,0 +1,10 @@
+.product {
+  padding: 48px 40px;
+  background: var(--color-news);
+}
+
+@media screen and (max-width: 512px) {
+  .product {
+    padding: 56px 40px;
+  }
+}

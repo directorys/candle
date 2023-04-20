@@ -1,0 +1,15 @@
+.product__cards {
+  margin: 0 auto;
+  max-width: 1090px;
+  width: 100%;
+  display: grid;
+  gap: 38px 23px;
+  justify-content: space-around;
+  grid-template-columns: repeat(auto-fill, minmax(216px, 216px));
+}
+
+@media screen and (max-width: 512px) {
+  .product__cards {
+    grid-template-columns: repeat(auto-fill, minmax(134px, 134px));
+  }
+}

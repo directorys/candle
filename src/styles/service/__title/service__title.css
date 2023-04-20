@@ -1,0 +1,27 @@
+.service__title {
+  margin: 0 auto 30px;
+  max-width: 1090px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .service__title {
+    margin-bottom: 24px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .service__title {
+    margin-bottom: 18px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .service__title {
+    margin-bottom: 12px;
+    font-size: 13px;
+  }
+}

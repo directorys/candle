@@ -1,0 +1,9 @@
+.page {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  min-width: 375px;
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  line-height: 1.2;
+}

@@ -1,0 +1,4 @@
+.product__price_type_old {
+  color: var(--color-price);
+  text-decoration: line-through;
+}

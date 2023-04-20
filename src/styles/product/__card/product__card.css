@@ -1,0 +1,12 @@
+.product__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+@media screen and (max-width: 512px) {
+  .product__card {
+    gap: 7px;
+  }
+}
